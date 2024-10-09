@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generated Recipe</title>
+</head>
+<body>
+    <h1>Generated Recipe</h1>
+    <div style="width:100%;">
+      <pre>{{ recipe|safe }}</pre>
+    </div>
+
+    <a href="{% url 'generate_recipe' %}">Generate another recipe</a>
+</body>
+</html>
